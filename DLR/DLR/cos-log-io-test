@@ -1,0 +1,951 @@
+starting cos-h ...
+running sar ...
+sleeping for 30s ...
+running cosbench ...
+running sysbench ...
+sleeping 250s ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     50   3168 --:--:-- --:--:-- --:--:--  3174
+cosbench: Accepted with ID: w2491
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36173      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  65072      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  31493      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  48143      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0    98k      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  43834      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  42509      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  35721      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  66881      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0   108k      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  69253      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  35229      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39289      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0   109k      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  33705      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  43695      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40776      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  92945      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  85171      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  44659      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36782      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37968      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0   109k      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  29256      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  34903      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  34881      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40816      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  64067      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0   105k      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  42520      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  83880      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  70368      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  32510      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  71830      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36905      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  65405      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37244      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39779      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  64591      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  79236      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  82259      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  68312      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41048      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  60517      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0   107k      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  81492      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  45856      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  49068      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  22281      0 --:--:-- --:--:-- --:--:-- 23714
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  62950      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37565      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40606      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  38374      0 --:--:-- --:--:-- --:--:-- 42250
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  35593      0 --:--:-- --:--:-- --:--:-- 42250
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112  100   112    0     0  25489      0 --:--:-- --:--:-- --:--:-- 28000
+cosbench finished ... stopping benchmarks ...
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+dropping cache...
+node5: 3
+node2: 3
+node4: 3
+node1: 3
+node8: 3
+admin: 3
+node7: 3
+node6: 3
+node9: 3
+cosbench: 3
+done with case cos+h+sys ...
+starting cos-h ...
+running sar ...
+sleeping for 30s ...
+running cosbench ...
+running sysbench ...
+sleeping 250s ...
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 197, in <module>
+    sum_usage = sum_usage + io_wait_list[i]
+IndexError: list index out of range
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0  1441    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     37   2361 --:--:-- --:--:-- --:--:--  2358
+cosbench: Accepted with ID: w2492
+0.19143749999999998
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 204, in <module>
+    delta.append((io_wait_list[i]-avg_usage)/io_wait_list[i])
+ZeroDivisionError: float division by zero
+set osd.0 primary-affinity to 0.649173 (8425442)
+set osd.1 primary-affinity to 0.741108 (8485692)
+set osd.2 primary-affinity to 0.642091 (8420802)
+set osd.3 primary-affinity to 0.678424 (8444612)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.4531875
+[0.350827245380318, 0.2588920686835649, 0.35790946443751764, 0.3215755988023951, -0.46189516129032265, -0.846729828850856, -1.1088296882270827, -1.6378783469150175]
+[b'1.00000', b'1.00000', b'1.00000', b'1.00000', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.6491727546196819, 0.741107931316435, 0.6420905355624824, 0.6784244011976048, 1.0, 1.0, 1.0, 1.0]
+set osd.0 primary-affinity to 0.333499 (8218562)
+set osd.1 primary-affinity to 0.506833 (8332152)
+set osd.2 primary-affinity to 0.220358 (8144412)
+set osd.3 primary-affinity to 0.382973 (8250982)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.41004999999999997
+[0.31567089452603486, 0.23426704014939312, 0.4217317726695812, 0.2954467353951891, -1.217685235262304, -0.09580438268305701, -1.984352256186317, -1.593611638203668]
+[b'0.64917', b'0.74110', b'0.64209', b'0.67842', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.33349910547396516, 0.5068329598506068, 0.22035822733041888, 0.3829732646048109, 1.0, 1.0, 1.0, 1.0]
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.133402 (887422)
+set osd.2 primary-affinity to 0.1 (865532)
+set osd.3 primary-affinity to 0.018445 (812082)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.326825
+[0.5475844407530454, 0.3734183282208589, 0.37616911624355803, 0.36452459653898506, -1.7580168776371308, -0.9079100992410976, -19.17438271604938, -11.379734848484848]
+[b'0.33350', b'0.50682', b'0.22035', b'0.38297', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.13340167177914114, 0.1, 0.01844540346101492, 1.0, 1.0, 1.0, 1.0]
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.1 (865532)
+set osd.2 primary-affinity to 0.1 (865532)
+set osd.3 primary-affinity to 0.1 (865532)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.3606875
+[0.613618103910016, 0.31506361564755025, 0.362404984974368, 0.2962195121951219, -4.743431528662419, -0.7118533459895586, -8.201211734693878, -9.454710144927535]
+[b'0.09999', b'0.13339', b'0.09999', b'0.01843', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.1, 0.1, 0.1, 1.0, 1.0, 1.0, 1.0]
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.1 (865532)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  30419      0 --:--:-- --:--:-- --:--:-- 33200
+set osd.2 primary-affinity to 0.1 (865532)
+set osd.3 primary-affinity to 0.1 (865532)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  34454      0 --:--:-- --:--:-- --:--:-- 41500
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.31989999999999996
+[0.4800910125142207, 0.35269121813031173, 0.43199573863636376, 0.38833652007648195, -1.6394389438943895, -0.7831661092530655, -8.635542168674696, -9.77104377104377]
+[b'0.09999', b'0.09999', b'0.09999', b'0.09999', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.1, 0.1, 0.1, 1.0, 1.0, 1.0, 1.0]
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  35184      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  34454      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  44468      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  29474      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  38108      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  42706      0 --:--:-- --:--:-- --:--:-- 41500100   166  100   166    0     0  42303      0 --:--:-- --:--:-- --:--:-- 41500
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.1 (865532)
+set osd.2 primary-affinity to 0.1 (865532)
+set osd.3 primary-affinity to 0.1 (865532)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37012      0 --:--:-- --:--:-- --:--:-- 41500
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.3237625
+[0.49632467330429375, 0.4100537536443149, 0.4302964983283477, 0.3884350207782395, -3.322596795727636, -1.7766938250428819, -4.082613814756671, -6.100054824561405]
+[b'0.09999', b'0.09999', b'0.09999', b'0.09999', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.1, 0.1, 0.1, 1.0, 1.0, 1.0, 1.0]
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  38577      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40067      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  35454      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  45831      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37045      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  38586      0 --:--:-- --:--:-- --:--:-- 41500
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.1 (865532)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  48552      0 --:--:-- --:--:-- --:--:-- 55333
+set osd.2 primary-affinity to 0.1 (865532)
+set osd.3 primary-affinity to 0.1 (865532)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  71244      0 --:--:-- --:--:-- --:--:-- 83000
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.4063875
+[0.3214434797128068, 0.26697781385281383, 0.4062134716540035, 0.3283961328705998, -0.8875406409660938, -0.5874511718750001, -1.5116656365883807, -1.3195633561643838]
+[b'0.09999', b'0.09999', b'0.09999', b'0.09999', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.1, 0.1, 0.1, 1.0, 1.0, 1.0, 1.0]
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37253      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37437      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  22792      0 --:--:-- --:--:-- --:--:-- 23714
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36897      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  93521      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0   106k      0 --:--:-- --:--:-- --:--:--  162k
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.1 (865532)
+set osd.2 primary-affinity to 0.1 (865532)
+set osd.3 primary-affinity to 0.1 (865532)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  32696      0 --:--:-- --:--:-- --:--:-- 41500
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  31715      0 --:--:-- --:--:-- --:--:-- 33200
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.40893749999999995
+[0.27915124272871494, 0.2500687694846874, 0.4743058233706133, 0.23276266416510316, -1.3274758110415479, -0.2998649078194532, -1.2045148247978434, -1.3747822299651566]
+[b'0.09999', b'0.09999', b'0.09999', b'0.09999', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.1, 0.1, 0.1, 1.0, 1.0, 1.0, 1.0]
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  42444      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  21249      0 --:--:-- --:--:-- --:--:-- 23714
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  71336      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  43200      0 --:--:-- --:--:-- --:--:-- 56333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  54674      0 --:--:-- --:--:-- --:--:-- 84500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  44899      0 --:--:-- --:--:-- --:--:-- 56333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112  100   112    0     0  26527      0 --:--:-- --:--:-- --:--:-- 28000
+cosbench finished ... stopping benchmarks ...
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+dropping cache...
+node5: 3
+node2: 3
+node4: 3
+node8: 3
+node1: 3
+node6: 3
+node9: 3
+node7: 3
+cosbench: 3
+admin: 3
+done with case cos+h+sys ...
+set osd.0 primary-affinity to 1 (8655362)
+set osd.1 primary-affinity to 1 (8655362)
+set osd.2 primary-affinity to 1 (8655362)
+set osd.3 primary-affinity to 1 (8655362)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+starting cos-h ...
+running sar ...
+sleeping for 30s ...
+running cosbench ...
+running sysbench ...
+sleeping 250s ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     33   2075 --:--:-- --:--:-- --:--:--  2079
+cosbench: Accepted with ID: w2493
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  45330      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  70518      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  47482      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  21141      0 --:--:-- --:--:-- --:--:-- 23714
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39401      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41834      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  62570      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  45894      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  21631      0 --:--:-- --:--:-- --:--:-- 23714
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  46316      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40028      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39542      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40876      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  38748      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  29474      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40428      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  46420      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  35845      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  27652      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  30132      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  73942      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  22774      0 --:--:-- --:--:-- --:--:-- 23714
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39439      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  42271      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0    98k      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39271      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39599      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  37455      0 --:--:-- --:--:-- --:--:-- 42250
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  47365      0 --:--:-- --:--:-- --:--:-- 56333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  36211      0 --:--:-- --:--:-- --:--:-- 42250
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112  100   112    0     0  20086      0 --:--:-- --:--:-- --:--:-- 22400
+cosbench finished ... stopping benchmarks ...
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+dropping cache...
+node5: 3
+node2: 3
+node4: 3
+node9: 3
+node8: 3
+node7: 3
+node6: 3
+cosbench: 3
+node1: 3
+admin: 3
+done with case cos+h+sys ...
+starting cos-h ...
+running sar ...
+sleeping for 30s ...
+running cosbench ...
+running sysbench ...
+sleeping 250s ...
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 197, in <module>
+    sum_usage = sum_usage + io_wait_list[i]
+IndexError: list index out of range
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     37   2342 --:--:-- --:--:-- --:--:--  2343
+cosbench: Accepted with ID: w2494
+0.3282125
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 204, in <module>
+    delta.append((io_wait_list[i]-avg_usage)/io_wait_list[i])
+ZeroDivisionError: float division by zero
+set osd.0 primary-affinity to 0.638885 (8418692)
+set osd.1 primary-affinity to 0.615304 (8403242)
+set osd.2 primary-affinity to 0.688125 (8450962)
+set osd.3 primary-affinity to 0.645651 (8423132)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.426775
+[0.36111526946107775, 0.3846957900807382, 0.31187520154788784, 0.3543494704992435, -0.7628046261875258, -1.290794417606012, -2.041874554526016, -1.105451406018747]
+[b'1.00000', b'1.00000', b'1.00000', b'1.00000', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.6388847305389223, 0.6153042099192618, 0.6881247984521122, 0.6456505295007565, 1.0, 1.0, 1.0, 1.0]
+set osd.0 primary-affinity to 0.131053 (885882)
+set osd.1 primary-affinity to 0.345898 (8226682)
+set osd.2 primary-affinity to 0.423493 (8277542)
+set osd.3 primary-affinity to 0.346858 (8227312)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.3817375
+[0.5078165291387313, 0.26940191387559803, 0.26461664419187053, 0.2987922483468038, -1.8381970260223053, -0.03033063427800273, -4.01626149802891, -2.43289118705036]
+[b'0.63887', b'0.61530', b'0.68811', b'0.64565', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.13105347086126873, 0.3458980861244019, 0.42349335580812947, 0.34685775165319616, 1.0, 1.0, 1.0, 1.0]
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.039323 (825772)
+set osd.2 primary-affinity to 0.071556 (846892)
+set osd.3 primary-affinity to 0.1 (865532)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 0.964727 (8632242)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.3476875
+[0.43271740903899497, 0.3065666134822497, 0.35193383038210624, 0.3984645328719723, -3.0241608796296293, 0.035273307436182066, -8.52568493150685, -4.009906340057636]
+[b'0.13104', b'0.34589', b'0.42349', b'0.34685', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.0393233865177503, 0.07155616961789374, 0.1, 1.0, 0.9647266925638179, 1.0, 1.0]
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.1 (865532)
+set osd.2 primary-affinity to 0.1 (865532)
+set osd.3 primary-affinity to 0.1 (865532)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.30375
+[0.4321368480089737, 0.3928642814311412, 0.4474258686556303, 0.39636327503974556, -3.296322489391797, -0.5812077043206663, -7.461002785515321, -6.03125]
+[b'0.09999', b'0.03932', b'0.07155', b'0.09999', b'1.00000', b'0.96472', b'1.00000', b'1.00000']
+[0.1, 0.1, 0.1, 0.1, 1.0, 1.0, 1.0, 1.0]
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.1 (865532)
+set osd.2 primary-affinity to 0.1 (865532)
+set osd.3 primary-affinity to 0.1 (865532)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  46123      0 --:--:-- --:--:-- --:--:-- 55333
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.32893750000000005
+[0.4303126082438517, 0.3397480931352869, 0.4731942664958359, 0.4147019572953736, -2.250370553359684, -0.7994392778993437, -4.916142086330937, -10.001254180602007]
+[b'0.09999', b'0.09999', b'0.09999', b'0.09999', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.1, 0.1, 0.1, 1.0, 1.0, 1.0, 1.0]
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  48297      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  47564      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41324      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39589      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41782      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0   100k      0 --:--:-- --:--:-- --:--:--  162k
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.1 (865532)
+set osd.2 primary-affinity to 0.1 (865532)
+set osd.3 primary-affinity to 0.1 (865532)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40389      0 --:--:-- --:--:-- --:--:-- 55333
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.42285
+[0.39944610140605025, 0.29524999999999996, 0.3364977247764004, 0.39000288517022497, -1.0840315426318383, -1.0606725146198832, -1.7071062740076823, -1.299347471451876]
+[b'0.09999', b'0.09999', b'0.09999', b'0.09999', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.1, 0.1, 0.1, 1.0, 1.0, 1.0, 1.0]
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  70101      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  35938      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  31673      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36244      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  38021      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37244      0 --:--:-- --:--:-- --:--:-- 41500
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.1 (865532)
+set osd.2 primary-affinity to 0.1 (865532)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  27062      0 --:--:-- --:--:-- --:--:-- 33200
+set osd.3 primary-affinity to 0.1 (865532)
+set osd.4 primary-affinity to 1 (8655362)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  35752      0 --:--:-- --:--:-- --:--:-- 41500
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.4073375000000001
+[0.35963291935230296, 0.2864993869329129, 0.3862626186530058, 0.30654153898535913, -0.7865679824561406, -0.8832061950993993, -1.824809292649099, -0.9204974068835458]
+[b'0.09999', b'0.09999', b'0.09999', b'0.09999', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.1, 0.1, 0.1, 1.0, 1.0, 1.0, 1.0]
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  47660      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41950      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37599      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36733      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  42596      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36507      0 --:--:-- --:--:-- --:--:-- 41500
+set osd.0 primary-affinity to 0.1 (865532)
+set osd.1 primary-affinity to 0.1 (865532)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  43615      0 --:--:-- --:--:-- --:--:-- 55333
+set osd.2 primary-affinity to 0.1 (865532)
+set osd.3 primary-affinity to 0.1 (865532)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37727      0 --:--:-- --:--:-- --:--:-- 41500
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+0.4199
+[0.3031861931629605, 0.27603448275862064, 0.3751488095238096, 0.360493451111788, -1.0963554667998001, -0.5779782036828259, -1.424364896073903, -1.0148752399232246]
+[b'0.09999', b'0.09999', b'0.09999', b'0.09999', b'1.00000', b'1.00000', b'1.00000', b'1.00000']
+[0.1, 0.1, 0.1, 0.1, 1.0, 1.0, 1.0, 1.0]
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40057      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  64541      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  29261      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  42303      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  42206      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  20975      0 --:--:-- --:--:-- --:--:-- 23714
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  44551      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  46175      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  69224      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  75557      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  60297      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41929      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  27307      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  42871      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  99520      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  64818      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39104      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  21031      0 --:--:-- --:--:-- --:--:-- 23714
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  52832      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  46919      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  19481      0 --:--:-- --:--:-- --:--:-- 20750
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37539      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  52614      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40009      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  28390      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41303      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  43985      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  71923      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  71031      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  30952      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  41411      0 --:--:-- --:--:-- --:--:-- 56333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  35452      0 --:--:-- --:--:-- --:--:-- 42250
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112  100   112    0     0  14587      0 --:--:-- --:--:-- --:--:-- 16000
+cosbench finished ... stopping benchmarks ...
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+dropping cache...
+node5: 3
+node2: 3
+node8: 3
+node4: 3
+node7: 3
+node9: 3
+node1: 3
+node6: 3
+cosbench: 3
+admin: 3
+done with case cos+h+sys ...
+set osd.0 primary-affinity to 1 (8655362)
+set osd.1 primary-affinity to 1 (8655362)
+set osd.2 primary-affinity to 1 (8655362)
+set osd.3 primary-affinity to 1 (8655362)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)

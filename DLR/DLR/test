@@ -1,0 +1,88 @@
+node1: Linux 3.13.0-40-generic (node1)  11/01/2017      _x86_64_        (2 CPU)
+node2: Linux 3.13.0-40-generic (node2)  11/01/2017      _x86_64_        (2 CPU)
+node9: Linux 3.13.0-40-generic (node9)  11/01/2017      _x86_64_        (2 CPU)
+node4: Linux 3.13.0-40-generic (node4)  11/01/2017      _x86_64_        (2 CPU)
+node8: Linux 3.13.0-40-generic (node8)  11/01/2017      _x86_64_        (2 CPU)
+node5: Linux 3.13.0-40-generic (node5)  11/01/2017      _x86_64_        (2 CPU)
+node6: Linux 3.13.0-40-generic (node6)  11/01/2017      _x86_64_        (2 CPU)
+node7: Linux 3.13.0-40-generic (node7)  11/01/2017      _x86_64_        (2 CPU)
+node1: 
+node1: 02:30:00 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+node1: 02:30:30 AM     all      4.68      0.00     33.22      0.44      0.00     61.66
+node1: 
+node1: 02:30:00 AM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+node1: 02:30:30 AM   3472236    576052     14.23     10348     67256   1921532     47.47    458356     44024      3524
+node1: 
+node1: 02:30:00 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+node1: 02:30:30 AM      eth0 169100.90  94972.20 247512.66  11946.81      0.00      0.00      0.00      0.00
+node1: 02:30:30 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+node2: 
+node2: 02:30:35 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+node2: 02:31:05 AM     all      3.18      0.00     29.33      0.43      0.00     67.06
+node2: 
+node2: 02:30:35 AM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+node2: 02:31:05 AM   3549736    498552     12.32      9812     63740   1703548     42.08    404908     34624       352
+node2: 
+node2: 02:30:35 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+node2: 02:31:05 AM      eth0 167643.10  94230.37 245475.01  11587.25      0.00      0.00      0.00      0.00
+node2: 02:31:05 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+node9: 
+node9: 02:30:55 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+node9: 02:31:25 AM     all      3.59      0.00      2.08      0.67      0.00     93.66
+node9: 
+node9: 02:30:55 AM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+node9: 02:31:25 AM   3453780    594508     14.69     10756     71076   1339684     33.09    499388     41740      2360
+node9: 
+node9: 02:30:55 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+node9: 02:31:25 AM      eth0   2212.60   1041.53   1080.93   5799.31      0.00      0.00      0.00      0.00
+node9: 02:31:25 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+node4: 
+node4: 02:29:49 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+node4: 02:30:19 AM     all      4.74      0.00     19.74      0.78      0.00     74.74
+node4: 
+node4: 02:29:49 AM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+node4: 02:30:19 AM   3119900    928388     22.93     10480     62512   1755844     43.37    469988     36392      2720
+node4: 
+node4: 02:29:49 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+node4: 02:30:19 AM      eth0  94909.33  75741.37   7354.46 253340.38      0.00      0.00      0.00      0.00
+node4: 02:30:19 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+node8: 
+node8: 02:30:47 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+node8: 02:31:17 AM     all      2.58      0.00      1.76      0.64      0.00     95.02
+node8: 
+node8: 02:30:47 AM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+node8: 02:31:17 AM   3403776    644512     15.92     10404     54336   1333212     32.93    546612     43908      2964
+node8: 
+node8: 02:30:47 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+node8: 02:31:17 AM      eth0   1525.90    717.30    943.32   3267.26      0.00      0.00      0.00      0.00
+node8: 02:31:17 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+node5: 
+node5: 02:31:04 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+node5: 02:31:34 AM     all      3.62      0.00     20.12      0.65      0.00     75.61
+node5: 
+node5: 02:31:04 AM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+node5: 02:31:34 AM   3190732    857556     21.18     10276     52192   1658748     40.97    411660     33652       336
+node5: 
+node5: 02:31:04 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+node5: 02:31:34 AM      eth0  93689.80  74263.20   7160.47 251181.37      0.00      0.00      0.00      0.00
+node5: 02:31:34 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+node6: 
+node6: 02:30:25 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+node6: 02:30:55 AM     all      2.80      0.00      2.09      0.59      0.00     94.53
+node6: 
+node6: 02:30:25 AM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+node6: 02:30:55 AM   3571736    476552     11.77     10428     56044   1275528     31.51    379272     43728       384
+node6: 
+node6: 02:30:25 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+node6: 02:30:55 AM      eth0   1862.80    776.10    865.41   4481.18      0.00      0.00      0.00      0.00
+node6: 02:30:55 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00
+node7: 
+node7: 02:30:32 AM     CPU     %user     %nice   %system   %iowait    %steal     %idle
+node7: 02:31:02 AM     all      3.35      0.00      2.24      0.59      0.00     93.82
+node7: 
+node7: 02:30:32 AM kbmemfree kbmemused  %memused kbbuffers  kbcached  kbcommit   %commit  kbactive   kbinact   kbdirty
+node7: 02:31:02 AM   3529480    518808     12.82     10840     54116   1308912     32.33    423836     41296      2388
+node7: 
+node7: 02:30:32 AM     IFACE   rxpck/s   txpck/s    rxkB/s    txkB/s   rxcmp/s   txcmp/s  rxmcst/s   %ifutil
+node7: 02:31:02 AM      eth0   1971.53    920.10    919.79   5281.37      0.00      0.00      0.00      0.00
+node7: 02:31:02 AM        lo      0.00      0.00      0.00      0.00      0.00      0.00      0.00      0.00

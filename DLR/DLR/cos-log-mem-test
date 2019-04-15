@@ -1,0 +1,697 @@
+starting cos-h ...
+running sar ...
+sleeping for 30s ...
+running cosbench ...
+running sysbench ...
+sleeping 250s ...
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node5: Running the test with following options:
+node5: Number of threads: 256
+node5: 
+node5: Doing memory operations speed test
+node5: Memory block size: 102400K
+node5: 
+node5: Memory transfer size: 7168000M
+node5: 
+node5: Memory operations type: write
+node5: Memory scope type: global
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node5: Threads started!
+node2: Running the test with following options:
+node2: Number of threads: 256
+node2: 
+node2: Doing memory operations speed test
+node2: Memory block size: 102400K
+node2: 
+node2: Memory transfer size: 7168000M
+node2: 
+node2: Memory operations type: write
+node2: Memory scope type: global
+node4: Running the test with following options:
+node4: Number of threads: 256
+node4: 
+node4: Doing memory operations speed test
+node4: Memory block size: 102400K
+node4: 
+node4: Memory transfer size: 7168000M
+node4: 
+node4: Memory operations type: write
+node4: Memory scope type: global
+node2: Threads started!
+node4: Threads started!
+node1: Running the test with following options:
+node1: Number of threads: 256
+node1: 
+node1: Doing memory operations speed test
+node1: Memory block size: 102400K
+node1: 
+node1: Memory transfer size: 7168000M
+node1: 
+node1: Memory operations type: write
+node1: Memory scope type: global
+node1: Threads started!
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     89   5620 --:--:-- --:--:-- --:--:--  5628
+cosbench: Accepted with ID: w2487
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  57981      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37037      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  77715      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  33719      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40527      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37488      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  28035      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  33233      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41170      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  87830      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  30269      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36071      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  39111      0 --:--:-- --:--:-- --:--:-- 42250
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  36312      0 --:--:-- --:--:-- --:--:-- 42250
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112  100   112    0     0  14121      0 --:--:-- --:--:-- --:--:-- 16000
+cosbench finished ... stopping benchmarks ...
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+dropping cache...
+node1: 3
+node4: 3
+node8: 3
+node7: 3
+node9: 3
+node5: 3
+node2: 3
+node6: 3
+admin: 3
+cosbench: 3
+done with case cos+h+sys ...
+starting cos-h ...
+running sar ...
+sleeping for 30s ...
+running cosbench ...
+running sysbench ...
+sleeping 250s ...
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 256
+node5: 
+node5: Doing memory operations speed test
+node5: Memory block size: 102400K
+node5: 
+node5: Memory transfer size: 7168000M
+node5: 
+node5: Memory operations type: write
+node5: Memory scope type: global
+node5: Threads started!
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 256
+node1: 
+node1: Doing memory operations speed test
+node1: Memory block size: 102400K
+node1: 
+node1: Memory transfer size: 7168000M
+node1: 
+node1: Memory operations type: write
+node1: Memory scope type: global
+node1: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 256
+node2: 
+node2: Doing memory operations speed test
+node2: Memory block size: 102400K
+node2: 
+node2: Memory transfer size: 7168000M
+node2: 
+node2: Memory operations type: write
+node2: Memory scope type: global
+node4: Running the test with following options:
+node4: Number of threads: 256
+node4: 
+node4: Doing memory operations speed test
+node4: Memory block size: 102400K
+node4: 
+node4: Memory transfer size: 7168000M
+node4: 
+node4: Memory operations type: write
+node4: Memory scope type: global
+node4: Threads started!
+node2: Threads started!
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1441    0     0  100  1441      0   7186 --:--:-- --:--:-- --:--:--  7169100  1464  100    23  100  1441     80   5016 --:--:-- --:--:-- --:--:--  5020
+cosbench: Accepted with ID: w2488
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  56558      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41972      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  47025      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41160      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  35938      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  32995      0 --:--:-- --:--:-- --:--:-- 41500
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  54089      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  44113      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  38875      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  32390      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  71459      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  73451      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  21756      0 --:--:-- --:--:-- --:--:-- 23714
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  28913      0 --:--:-- --:--:-- --:--:-- 33800
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112  100   112    0     0  25860      0 --:--:-- --:--:-- --:--:-- 28000
+cosbench finished ... stopping benchmarks ...
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+dropping cache...
+node6: 3
+node8: 3
+node1: 3
+node4: 3
+node5: 3
+node9: 3
+node2: 3
+node7: 3
+cosbench: 3
+admin: 3
+done with case cos+h+sys ...
+set osd.0 primary-affinity to 1 (8655362)
+set osd.1 primary-affinity to 1 (8655362)
+set osd.2 primary-affinity to 1 (8655362)
+set osd.3 primary-affinity to 1 (8655362)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)
+starting cos-h ...
+running sar ...
+sleeping for 30s ...
+running cosbench ...
+running sysbench ...
+sleeping 250s ...
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 256
+node5: 
+node5: Doing memory operations speed test
+node5: Memory block size: 102400K
+node5: 
+node5: Memory transfer size: 7168000M
+node5: 
+node5: Memory operations type: write
+node5: Memory scope type: global
+node5: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 256
+node4: 
+node4: Doing memory operations speed test
+node4: Memory block size: 102400K
+node4: 
+node4: Memory transfer size: 7168000M
+node4: 
+node4: Memory operations type: write
+node4: Memory scope type: global
+node4: Threads started!
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node2: Running the test with following options:
+node2: Number of threads: 256
+node2: 
+node2: Doing memory operations speed test
+node2: Memory block size: 102400K
+node2: 
+node2: Memory transfer size: 7168000M
+node2: 
+node2: Memory operations type: write
+node2: Memory scope type: global
+node2: Threads started!
+node1: Running the test with following options:
+node1: Number of threads: 256
+node1: 
+node1: Doing memory operations speed test
+node1: Memory block size: 102400K
+node1: 
+node1: Memory transfer size: 7168000M
+node1: 
+node1: Memory operations type: write
+node1: Memory scope type: global
+node1: Threads started!
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     68   4302 --:--:-- --:--:-- --:--:--  4314
+cosbench: Accepted with ID: w2489
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36118      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37261      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  59927      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  66346      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  32478      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  37548      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  29102      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  68765      0 --:--:-- --:--:-- --:--:-- 83000
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36055      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  40174      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39104      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39086      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  75244      0 --:--:-- --:--:-- --:--:-- 84500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112  100   112    0     0  24363      0 --:--:-- --:--:-- --:--:-- 28000
+cosbench finished ... stopping benchmarks ...
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node1: Killed
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+pdsh@admin: node1: ssh exited with exit code 137
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+dropping cache...
+node8: 3
+node2: 3
+node4: 3
+node5: 3
+node1: 3
+node9: 3
+node7: 3
+node6: 3
+cosbench: 3
+admin: 3
+done with case cos+h+sys ...
+starting cos-h ...
+running sar ...
+sleeping for 30s ...
+running cosbench ...
+running sysbench ...
+sleeping 250s ...
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 256
+node5: 
+node5: Doing memory operations speed test
+node5: Memory block size: 102400K
+node5: 
+node5: Memory transfer size: 7168000M
+node5: 
+node5: Memory operations type: write
+node5: Memory scope type: global
+node2: Running the test with following options:
+node2: Number of threads: 256
+node2: 
+node2: Doing memory operations speed test
+node2: Memory block size: 102400K
+node2: 
+node2: Memory transfer size: 7168000M
+node2: 
+node2: Memory operations type: write
+node2: Memory scope type: global
+node2: Threads started!
+node5: Threads started!
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node1: Running the test with following options:
+node1: Number of threads: 256
+node1: 
+node1: Doing memory operations speed test
+node1: Memory block size: 102400K
+node1: 
+node1: Memory transfer size: 7168000M
+node1: 
+node1: Memory operations type: write
+node1: Memory scope type: global
+node1: Threads started!
+node4: Running the test with following options:
+node4: Number of threads: 256
+node4: 
+node4: Doing memory operations speed test
+node4: Memory block size: 102400K
+node4: 
+node4: Memory transfer size: 7168000M
+node4: 
+node4: Memory operations type: write
+node4: Memory scope type: global
+node4: Threads started!
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     80   5028 --:--:-- --:--:-- --:--:--  5038
+cosbench: Accepted with ID: w2490
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  44937      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36864      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  68200      0 --:--:-- --:--:-- --:--:-- 83000
+Traceback (most recent call last):
+  File "/home/ceph-user/scripts/get_sar-data.py", line 104, in <module>
+    print (mem_usage_array)
+NameError: name 'mem_usage_array' is not defined
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  38301      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  27903      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  36872      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  32009      0 --:--:-- --:--:-- --:--:-- 33200
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  80778      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  34184      0 --:--:-- --:--:-- --:--:-- 41500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  81452      0 --:--:-- --:--:-- --:--:--  162k
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  39486      0 --:--:-- --:--:-- --:--:-- 55333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  23378      0 --:--:-- --:--:-- --:--:-- 24142
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  50629      0 --:--:-- --:--:-- --:--:-- 56333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  71187      0 --:--:-- --:--:-- --:--:-- 84500
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112  100   112    0     0  63312      0 --:--:-- --:--:-- --:--:--  109k
+cosbench finished ... stopping benchmarks ...
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+dropping cache...
+node8: 3
+node6: 3
+node4: 3
+node2: 3
+node1: 3
+node5: 3
+node9: 3
+node7: 3
+cosbench: 3
+admin: 3
+done with case cos+h+sys ...
+set osd.0 primary-affinity to 1 (8655362)
+set osd.1 primary-affinity to 1 (8655362)
+set osd.2 primary-affinity to 1 (8655362)
+set osd.3 primary-affinity to 1 (8655362)
+set osd.4 primary-affinity to 1 (8655362)
+set osd.5 primary-affinity to 1 (8655362)
+set osd.6 primary-affinity to 1 (8655362)
+set osd.7 primary-affinity to 1 (8655362)

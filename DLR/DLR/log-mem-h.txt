@@ -1,0 +1,564 @@
+running vmstat...
+running cosbench...
+running sysbench ...
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 1
+node2: 
+node2: Doing memory operations speed test
+node2: Memory block size: 1K
+node2: 
+node2: Memory transfer size: 1024000M
+node2: 
+node2: Memory operations type: write
+node2: Memory scope type: global
+node2: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 1
+node4: 
+node4: Doing memory operations speed test
+node4: Memory block size: 1K
+node4: 
+node4: Memory transfer size: 1024000M
+node4: 
+node4: Memory operations type: write
+node4: Memory scope type: global
+node4: Threads started!
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 1
+node1: 
+node1: Doing memory operations speed test
+node1: Memory block size: 1K
+node1: 
+node1: Memory transfer size: 1024000M
+node1: 
+node1: Memory operations type: write
+node1: Memory scope type: global
+node1: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 1
+node5: 
+node5: Doing memory operations speed test
+node5: Memory block size: 1K
+node5: 
+node5: Memory transfer size: 1024000M
+node5: 
+node5: Memory operations type: write
+node5: Memory scope type: global
+node5: Threads started!
+cosbench: Accepted with ID: w2013
+0.24801
+0.29384
+0.01827
+0.03641
+0.019430000000000003
+0.16318
+0.11063
+0.10832
+0.10918000000000001
+cosbench: w2013	Mon Oct 16 08:04:10 UTC 2017	PROCESSING
+cosbench: 
+node4: 3
+node1: 3
+node9: 3
+node5: 3
+node2: 3
+node8: 3
+node7: 3
+cosbench: 3
+node6: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2013
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2013'
+Killed Cosbench Job: w2013
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 372 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 371 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     61229765   1984855361     61864073   3765828056
+mycontainers2              0            0            0            0            0     61427941   1999549374     61859254   3764769816
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131919360            0
+  total avail      184422208
+  total space      330009088
+done with case cos+h+sys ...
+running vmstat...
+running cosbench...
+running sysbench ...
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 1
+node2: 
+node2: Doing memory operations speed test
+node2: Memory block size: 1K
+node2: 
+node2: Memory transfer size: 1024000M
+node2: 
+node2: Memory operations type: write
+node2: Memory scope type: global
+node2: Threads started!
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 1
+node1: 
+node1: Doing memory operations speed test
+node1: Memory block size: 1K
+node1: 
+node1: Memory transfer size: 1024000M
+node1: 
+node1: Memory operations type: write
+node1: Memory scope type: global
+node1: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 1
+node4: 
+node4: Doing memory operations speed test
+node4: Memory block size: 1K
+node4: 
+node4: Memory transfer size: 1024000M
+node4: 
+node4: Memory operations type: write
+node4: Memory scope type: global
+node4: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 1
+node5: 
+node5: Doing memory operations speed test
+node5: Memory block size: 1K
+node5: 
+node5: Memory transfer size: 1024000M
+node5: 
+node5: Memory operations type: write
+node5: Memory scope type: global
+node5: Threads started!
+cosbench: Accepted with ID: w2014
+0.08064
+0.08064
+0.38004000000000004
+0.25638
+0.06215
+0.23276
+0.02205
+0.022750000000000003
+0.03047
+cosbench: w2014	Mon Oct 16 08:12:29 UTC 2017	CANCELLED
+cosbench: 
+node5: 3
+node9: 3
+node4: 3
+node1: 3
+node8: 3
+node2: 3
+node6: 3
+node7: 3
+cosbench: 3
+0.042940000000000006
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2014
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2014'
+Killed Cosbench Job: w2014
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 371 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 371 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     61232713   1984956439     61892886   3767536192
+mycontainers2              0            0            0            0            0     61430887   1999648101     61888066   3766478407
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131913436            0
+  total avail      184428132
+  total space      330009088
+done with case cos+h+sys ...
+running vmstat...
+running cosbench...
+running sysbench ...
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 1
+node1: 
+node1: Doing memory operations speed test
+node1: Memory block size: 1K
+node1: 
+node1: Memory transfer size: 1024000M
+node1: 
+node1: Memory operations type: write
+node1: Memory scope type: global
+node1: Threads started!
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 1
+node2: 
+node2: Doing memory operations speed test
+node2: Memory block size: 1K
+node2: 
+node2: Memory transfer size: 1024000M
+node2: 
+node2: Memory operations type: write
+node2: Memory scope type: global
+node2: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 1
+node4: 
+node4: Doing memory operations speed test
+node4: Memory block size: 1K
+node4: 
+node4: Memory transfer size: 1024000M
+node4: 
+node4: Memory operations type: write
+node4: Memory scope type: global
+node4: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 1
+node5: 
+node5: Doing memory operations speed test
+node5: Memory block size: 1K
+node5: 
+node5: Memory transfer size: 1024000M
+node5: 
+node5: Memory operations type: write
+node5: Memory scope type: global
+node5: Threads started!
+cosbench: Accepted with ID: w2015
+running vmstat...
+running cosbench...
+running sysbench ...
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 1
+node1: 
+node1: Doing memory operations speed test
+node1: Memory block size: 1K
+node1: 
+node1: Memory transfer size: 1024000M
+node1: 
+node1: Memory operations type: write
+node1: Memory scope type: global
+node1: Threads started!
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 1
+node2: 
+node2: Doing memory operations speed test
+node2: Memory block size: 1K
+node2: 
+node2: Memory transfer size: 1024000M
+node2: 
+node2: Memory operations type: write
+node2: Memory scope type: global
+node2: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 1
+node5: 
+node5: Doing memory operations speed test
+node5: Memory block size: 1K
+node5: 
+node5: Memory transfer size: 1024000M
+node5: 
+node5: Memory operations type: write
+node5: Memory scope type: global
+node5: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 1
+node4: 
+node4: Doing memory operations speed test
+node4: Memory block size: 1K
+node4: 
+node4: Memory transfer size: 1024000M
+node4: 
+node4: Memory operations type: write
+node4: Memory scope type: global
+node4: Threads started!
+cosbench: Accepted with ID: w2016
+0.04911
+0.06953
+0.18259
+0.09753
+0.25043
+0.05132
+0.11560999999999999
+0.04783
+0.02998
+cosbench: w2016	Mon Oct 16 16:35:21 UTC 2017	CANCELLED
+cosbench: 
+node2: 3
+node7: 3
+node9: 3
+node8: 3
+node1: 3
+node4: 3
+node5: 3
+node6: 3
+admin: 3
+cosbench: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2016
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2016'
+Killed Cosbench Job: w2016
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 372 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 373 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     61251747   1985554085     62075199   3778458463
+mycontainers2              0            0            0            0            0     61449919   2000246962     62070378   3777403674
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131945480            0
+  total avail      184396088
+  total space      330009088
+done with case cos+h+sys ...
+running vmstat...
+running cosbench...
+running sysbench ...
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 1
+node2: 
+node2: Doing memory operations speed test
+node2: Memory block size: 1K
+node2: 
+node2: Memory transfer size: 1024000M
+node2: 
+node2: Memory operations type: write
+node2: Memory scope type: global
+node2: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 1
+node5: 
+node5: Doing memory operations speed test
+node5: Memory block size: 1K
+node5: 
+node5: Memory transfer size: 1024000M
+node5: 
+node5: Memory operations type: write
+node5: Memory scope type: global
+node5: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 1
+node4: 
+node4: Doing memory operations speed test
+node4: Memory block size: 1K
+node4: 
+node4: Memory transfer size: 1024000M
+node4: 
+node4: Memory operations type: write
+node4: Memory scope type: global
+node4: Threads started!
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 1
+node1: 
+node1: Doing memory operations speed test
+node1: Memory block size: 1K
+node1: 
+node1: Memory transfer size: 1024000M
+node1: 
+node1: Memory operations type: write
+node1: Memory scope type: global
+node1: Threads started!
+cosbench: Accepted with ID: w2017
+0.23998
+0.23998
+0.013560000000000003
+0.0342
+0.013450000000000002
+0.07443
+0.4322
+0.05282
+0.07257
+0.01874
+cosbench: w2017	Mon Oct 16 16:43:24 UTC 2017	CANCELLED
+cosbench: 
+node2: 3
+node8: 3
+node1: 3
+node6: 3
+node7: 3
+node5: 3
+node4: 3
+node9: 3
+admin: 3
+cosbench: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2017
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2017'
+Killed Cosbench Job: w2017
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 373 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 373 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     61256661   1985705535     62122271   3781268037
+mycontainers2              0            0            0            0            0     61454833   2000387941     62117449   3780216647
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131934032            0
+  total avail      184407536
+  total space      330009088
+done with case cos+h+sys ...
+running vmstat...
+running cosbench...
+running sysbench ...
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 1
+node4: 
+node4: Doing memory operations speed test
+node4: Memory block size: 1K
+node4: 
+node4: Memory transfer size: 1024000M
+node4: 
+node4: Memory operations type: write
+node4: Memory scope type: global
+node4: Threads started!
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 1
+node2: 
+node2: Doing memory operations speed test
+node2: Memory block size: 1K
+node2: 
+node2: Memory transfer size: 1024000M
+node2: 
+node2: Memory operations type: write
+node2: Memory scope type: global
+node2: Threads started!
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 1
+node1: 
+node1: Doing memory operations speed test
+node1: Memory block size: 1K
+node1: 
+node1: Memory transfer size: 1024000M
+node1: 
+node1: Memory operations type: write
+node1: Memory scope type: global
+node1: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 1
+node5: 
+node5: Doing memory operations speed test
+node5: Memory block size: 1K
+node5: 
+node5: Memory transfer size: 1024000M
+node5: 
+node5: Memory operations type: write
+node5: Memory scope type: global
+node5: Threads started!
+cosbench: Accepted with ID: w2018
+0.02638
+0.02638
+0.013540000000000002
+0.02109
+0.01336
+0.13757000000000003
+0.05786
+0.026370000000000005
+0.015460000000000002
+1.08197
+cosbench: w2018	Mon Oct 16 16:51:18 UTC 2017	PROCESSING
+cosbench: 
+node5: 3
+node2: 3
+node8: 3
+node4: 3
+node1: 3
+node7: 3
+node9: 3
+cosbench: 3
+node6: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2018
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2018'
+Killed Cosbench Job: w2018
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 372 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 372 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     61261315   1985860929     62166666   3783918847
+mycontainers2              0            0            0            0            0     61459485   2000548404     62161843   3782879374
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131955772            0
+  total avail      184385796
+  total space      330009088
+done with case cos+h+sys ...

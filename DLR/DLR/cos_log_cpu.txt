@@ -1,0 +1,1304 @@
+starting cos-only ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 96  1441    0     0   96  1393      0   8654 --:--:-- --:--:-- --:--:--  8652100  1464  100    23  100  1441     47   2978 --:--:-- --:--:-- --:--:--  2977
+cosbench: Accepted with ID: w2137
+done with cosbench prepare ... sleeping 300s ...
+stopping cluster ...
+pdsh@admin: node5: ssh exited with exit code 1
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node2: ssh exited with exit code 1
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  38797      0 --:--:-- --:--:-- --:--:-- 42250
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node7: Killed
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+pdsh@admin: node7: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench: w2137	Fri Oct 20 08:19:45 UTC 2017	CANCELLED
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+cosbench: 
+node8: 3
+node2: 3
+cosbench: 3
+node4: 3
+node6: 3
+node9: 3
+node1: 3
+admin: 3
+node5: 3
+node7: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2137
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2137'
+Killed Cosbench Job: w2137
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 233 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     66120259   2778164842     62858654   4119436836
+mycontainers2              0            0            0            0            0     66312503   2788969229     62855281   4103352533
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       132007616            0
+  total avail      184333952
+  total space      330009088
+done with case cos-only ...
+starting cos-only ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     71   4460 --:--:-- --:--:-- --:--:--  4475
+cosbench: Accepted with ID: w2138
+done with cosbench prepare ... sleeping 300s ...
+stopping cluster ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112  100   112    0     0  27210      0 --:--:-- --:--:-- --:--:-- 37333
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+pdsh@admin: node2: ssh exited with exit code 1
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node5: 3
+node4: 3
+cosbench: 3
+node9: 3
+node7: 3
+node6: 3
+node2: 3
+node1: 3
+node8: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+All set no cosbench Job is running..
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     66376445   2786382645     62870964   4119903863
+mycontainers2              0            0            0            0            0     66568513   2796997374     62867600   4103811922
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       132039052            0
+  total avail      184302516
+  total space      330009088
+done with case cos-only ...
+starting cos-only ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1441    0     0  100  1441      0   7179 --:--:-- --:--:-- --:--:--  7169100  1464  100    23  100  1441     67   4199 --:--:-- --:--:-- --:--:--  4201
+cosbench: Accepted with ID: w2139
+done with cosbench prepare ... sleeping 300s ...
+stopping cluster ...
+pdsh@admin: node1: ssh exited with exit code 1
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+pdsh@admin: node2: ssh exited with exit code 1
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+pdsh@admin: node4: ssh exited with exit code 1
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  40673      0 --:--:-- --:--:-- --:--:-- 56333
+pdsh@admin: node8: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+pdsh@admin: node5: ssh exited with exit code 1
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench: w2139	Fri Oct 20 08:34:37 UTC 2017	CANCELLED
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+cosbench: 
+node2: 3
+node6: 3
+node1: 3
+node9: 3
+node7: 3
+node5: 3
+node4: 3
+node8: 3
+cosbench: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2139
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2139'
+Killed Cosbench Job: w2139
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     66639349   2795271725     62883709   4120384576
+mycontainers2              0            0            0            0            0     66832955   2804825707     62880069   4104281404
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       132003628            0
+  total avail      184337940
+  total space      330009088
+done with case cos-only ...
+starting cos-h ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     79   5010 --:--:-- --:--:-- --:--:--  5020
+cosbench: Accepted with ID: w2140
+done with cosbench prepare ... 
+running sysbench ...
+sleeping for 300s ...
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 64
+node2: 
+node2: Doing CPU performance benchmark
+node2: 
+node2: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 64
+node4: 
+node4: Doing CPU performance benchmark
+node4: 
+node4: Threads started!
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 64
+node1: 
+node1: Doing CPU performance benchmark
+node1: 
+node1: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 64
+node5: 
+node5: Doing CPU performance benchmark
+node5: 
+node5: Threads started!
+stopping cluster ...
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  44791      0 --:--:-- --:--:-- --:--:-- 56333
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench: w2140	Fri Oct 20 08:43:00 UTC 2017	CANCELLED
+cosbench: 
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+node2: 3
+node4: 3
+node5: 3
+node1: 3
+node9: 3
+node8: 3
+node6: 3
+node7: 3
+cosbench: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2140
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2140'
+Killed Cosbench Job: w2140
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     66886421   2802840191     62895889   4120842181
+mycontainers2              0            0            0            0            0     67079529   2812723792     62891950   4104727321
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131997684            0
+  total avail      184343884
+  total space      330009088
+done with case cos+h+sys ...
+starting cos-h ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1441    0     0  100  1441      0   7175 --:--:-- --:--:-- --:--:--  7169100  1464  100    23  100  1441     78   4925 --:--:-- --:--:-- --:--:--  4918
+cosbench: Accepted with ID: w2141
+done with cosbench prepare ... 
+running sysbench ...
+sleeping for 300s ...
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 64
+node4: 
+node4: Doing CPU performance benchmark
+node4: 
+node4: Threads started!
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 64
+node2: 
+node2: Doing CPU performance benchmark
+node2: 
+node2: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 64
+node5: 
+node5: Doing CPU performance benchmark
+node5: 
+node5: Threads started!
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 64
+node1: 
+node1: Doing CPU performance benchmark
+node1: 
+node1: Threads started!
+stopping cluster ...
+node4: Time limit exceeded, exiting...
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node5: Time limit exceeded, exiting...
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  36931      0 --:--:-- --:--:-- --:--:-- 42250
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench: w2141	Fri Oct 20 08:50:10 UTC 2017	CANCELLED
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+cosbench: 
+node2: 3
+node1: 3
+node5: 3
+node4: 3
+node6: 3
+node8: 3
+node7: 3
+node9: 3
+cosbench: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2141
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2141'
+Killed Cosbench Job: w2141
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 236 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67186039   2812433657     62910351   4121390523
+mycontainers2              0            0            0            0            0     67379805   2822298699     62906293   4105266272
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131996064            0
+  total avail      184345504
+  total space      330009088
+done with case cos+h+sys ...
+starting cos-h ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     92   5775 --:--:-- --:--:-- --:--:--  5787
+cosbench: Accepted with ID: w2142
+done with cosbench prepare ... 
+running sysbench ...
+sleeping for 300s ...
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 64
+node2: 
+node2: Doing CPU performance benchmark
+node2: 
+node2: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 64
+node4: 
+node4: Doing CPU performance benchmark
+node4: 
+node4: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 64
+node5: 
+node5: Doing CPU performance benchmark
+node5: 
+node5: Threads started!
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 64
+node1: 
+node1: Doing CPU performance benchmark
+node1: 
+node1: Threads started!
+stopping cluster ...
+node2: Time limit exceeded, exiting...
+node4: Time limit exceeded, exiting...
+node5: Time limit exceeded, exiting...
+node1: Time limit exceeded, exiting...
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  44791      0 --:--:-- --:--:-- --:--:-- 56333
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench: w2142	Fri Oct 20 08:57:18 UTC 2017	CANCELLED
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+cosbench: 
+node4: 3
+node5: 3
+node2: 3
+node1: 3
+node7: 3
+node6: 3
+cosbench: 3
+node9: 3
+node8: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2142
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2142'
+Killed Cosbench Job: w2142
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67502923   2822354772     62925560   4121963274
+mycontainers2              0            0            0            0            0     67697619   2832179215     62921362   4105832024
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131985144            0
+  total avail      184356424
+  total space      330009088
+done with case cos+h+sys ...
+starting cos-only ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     77   4877 --:--:-- --:--:-- --:--:--  4884
+cosbench: Accepted with ID: w2143
+done with cosbench prepare ... sleeping 300s ...
+stopping cluster ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  45102      0 --:--:-- --:--:-- --:--:-- 56333
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+cosbench: w2143	Fri Oct 20 09:05:28 UTC 2017	CANCELLED
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     8    0     0  100     8      0     39 --:--:-- --:--:-- --:--:--    39100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+cosbench: 
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+pdsh@admin: node4: ssh exited with exit code 1
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+pdsh@admin: node1: ssh exited with exit code 1
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+pdsh@admin: node2: ssh exited with exit code 1
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+pdsh@admin: node5: ssh exited with exit code 1
+node4: 3
+node7: 3
+node6: 3
+node2: 3
+node1: 3
+node5: 3
+node8: 3
+node9: 3
+cosbench: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2143
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2143'
+Killed Cosbench Job: w2143
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67506613   2822468242     62961195   4124083695
+mycontainers2              0            0            0            0            0     67701347   2832303638     62957097   4107974280
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       132108148            0
+  total avail      184233420
+  total space      330009088
+done with case cos-only ...
+starting cos-only ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1441    0     0  100  1441      0   7183 --:--:-- --:--:-- --:--:--  7169100  1464  100    23  100  1441     92   5798 --:--:-- --:--:-- --:--:--  5787
+cosbench: Accepted with ID: w2144
+done with cosbench prepare ... sleeping 300s ...
+stopping cluster ...
+pdsh@admin: node4: ssh exited with exit code 1
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+pdsh@admin: node5: ssh exited with exit code 1
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  43511      0 --:--:-- --:--:-- --:--:-- 56333
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+pdsh@admin: node2: ssh exited with exit code 1
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+pdsh@admin: node1: ssh exited with exit code 1
+pdsh@admin: node8: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench: w2144	Fri Oct 20 09:12:45 UTC 2017	CANCELLED
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+cosbench: 
+node2: 3
+node5: 3
+node8: 3
+node9: 3
+node4: 3
+node1: 3
+node7: 3
+cosbench: 3
+node6: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2144
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2144'
+Killed Cosbench Job: w2144
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 425 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 491 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67508501   2822528347     62979891   4125179928
+mycontainers2              0            0            0            0            0     67703305   2832366330     62976069   4109087878
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131988088            0
+  total avail      184353480
+  total space      330009088
+done with case cos-only ...
+starting cos-only ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1441    0     0  100  1441      0   7175 --:--:-- --:--:-- --:--:--  7169100  1464  100    23  100  1441     91   5737 --:--:-- --:--:-- --:--:--  5741
+cosbench: Accepted with ID: w2145
+done with cosbench prepare ... sleeping 300s ...
+stopping cluster ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   166  100   166    0     0  41782      0 --:--:-- --:--:-- --:--:-- 55333
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 1
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+pdsh@admin: node5: ssh exited with exit code 1
+pdsh@admin: node4: ssh exited with exit code 1
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench: w2145	Fri Oct 20 09:19:59 UTC 2017	CANCELLED
+cosbench: 
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     8    0     0  100     8      0     39 --:--:-- --:--:-- --:--:--    39100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    88
+node4: 3
+node8: 3
+node2: 3
+node5: 3
+node1: 3
+node6: 3
+node7: 3
+node9: 3
+cosbench: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2145
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2145'
+Killed Cosbench Job: w2145
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 489 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 489 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67512129   2822635553     63015376   4127299622
+mycontainers2              0            0            0            0            0     67706945   2832486497     63011230   4111161458
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131978320            0
+  total avail      184363248
+  total space      330009088
+done with case cos-only ...
+starting cos-h ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     89   5595 --:--:-- --:--:-- --:--:--  5607
+cosbench: Accepted with ID: w2146
+done with cosbench prepare ... 
+running sysbench ...
+sleeping for 300s ...
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 64
+node1: 
+node1: Doing CPU performance benchmark
+node1: 
+node1: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 64
+node4: 
+node4: Doing CPU performance benchmark
+node4: 
+node4: Threads started!
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 64
+node2: 
+node2: Doing CPU performance benchmark
+node2: 
+node2: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 64
+node5: 
+node5: Doing CPU performance benchmark
+node5: 
+node5: Threads started!
+stopping cluster ...
+node1: Time limit exceeded, exiting...
+node4: Time limit exceeded, exiting...
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0   135k      0 --:--:-- --:--:-- --:--:--  165k
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench: w2146	Fri Oct 20 09:28:20 UTC 2017	CANCELLED
+cosbench: 
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100     8    0     0  100     8      0     39 --:--:-- --:--:-- --:--:--    39100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+node1: 3
+node4: 3
+node2: 3
+node8: 3
+node5: 3
+node9: 3
+node7: 3
+node6: 3
+cosbench: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2146
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2146'
+Killed Cosbench Job: w2146
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 90 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67515707   2822752525     63049523   4129331383
+mycontainers2              0            0            0            0            0     67710441   2832592845     63045276   4113183972
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       131979796            0
+  total avail      184361772
+  total space      330009088
+done with case cos+h+sys ...
+starting cos-h ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     71   4464 --:--:-- --:--:-- --:--:--  4475
+cosbench: Accepted with ID: w2147
+done with cosbench prepare ... 
+running sysbench ...
+sleeping for 300s ...
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 64
+node1: 
+node1: Doing CPU performance benchmark
+node1: 
+node1: Threads started!
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 64
+node2: 
+node2: Doing CPU performance benchmark
+node2: 
+node2: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 64
+node4: 
+node4: Doing CPU performance benchmark
+node4: 
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 64
+node5: 
+node5: Doing CPU performance benchmark
+node5: 
+node4: Threads started!
+node5: Threads started!
+stopping cluster ...
+node1: Time limit exceeded, exiting...
+node4: Time limit exceeded, exiting...
+node5: Time limit exceeded, exiting...
+node2: Time limit exceeded, exiting...
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node5: Killed
+node1: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+pdsh@admin: node1: ssh exited with exit code 137
+node4: Killed
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+pdsh@admin: node4: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   112  100   112    0     0  24994      0 --:--:-- --:--:-- --:--:-- 28000
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+node4: 3
+node2: 3
+node5: 3
+node1: 3
+node8: 3
+node9: 3
+node7: 3
+cosbench: 3
+node6: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+All set no cosbench Job is running..
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67519019   2822860402     63081285   4131216835
+mycontainers2              0            0            0            0            0     67713773   2832693784     63076834   4115050756
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       132044928            0
+  total avail      184296640
+  total space      330009088
+done with case cos+h+sys ...
+starting cos-h ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1464  100    23  100  1441     81   5129 --:--:-- --:--:-- --:--:--  5146
+cosbench: Accepted with ID: w2148
+done with cosbench prepare ... 
+running sysbench ...
+sleeping for 300s ...
+node1: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node1: 
+node1: Running the test with following options:
+node1: Number of threads: 64
+node1: 
+node1: Doing CPU performance benchmark
+node1: 
+node2: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node2: 
+node2: Running the test with following options:
+node2: Number of threads: 64
+node2: 
+node2: Doing CPU performance benchmark
+node2: 
+node1: Threads started!
+node4: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node4: 
+node4: Running the test with following options:
+node4: Number of threads: 64
+node4: 
+node4: Doing CPU performance benchmark
+node4: 
+node4: Threads started!
+node5: sysbench 0.4.12:  multi-threaded system evaluation benchmark
+node5: 
+node5: Running the test with following options:
+node5: Number of threads: 64
+node5: 
+node5: Doing CPU performance benchmark
+node5: 
+node5: Threads started!
+node2: Threads started!
+stopping cluster ...
+node2: Time limit exceeded, exiting...
+node1: Time limit exceeded, exiting...
+node5: Time limit exceeded, exiting...
+node4: Time limit exceeded, exiting...
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  89750      0 --:--:-- --:--:-- --:--:--  165k
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench: w2148	Fri Oct 20 09:43:16 UTC 2017	CANCELLED
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+cosbench: 
+node4: 3
+node2: 3
+node5: 3
+node1: 3
+node6: 3
+node9: 3
+node8: 3
+node7: 3
+cosbench: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2148
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2148'
+Killed Cosbench Job: w2148
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67522811   2822971923     63118319   4133409551
+mycontainers2              0            0            0            0            0     67717571   2832814619     63113879   4117256362
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       132015880            0
+  total avail      184325688
+  total space      330009088
+done with case cos+h+sys ...
+starting cos-only ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1461  100    23  100  1438     88   5503 --:--:-- --:--:-- --:--:--  5530
+cosbench: Accepted with ID: w2149
+done with cosbench prepare ... sleeping 300s ...
+stopping cluster ...
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  44010      0 --:--:-- --:--:-- --:--:-- 56333
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench: w2149	Fri Oct 20 09:51:49 UTC 2017	CANCELLED
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53  100    45  100     8     88     15 --:--:-- --:--:-- --:--:--    88100    53  100    45  100     8     88     15 --:--:-- --:--:-- --:--:--    88
+cosbench: 
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+pdsh@admin: node2: ssh exited with exit code 1
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+pdsh@admin: node1: ssh exited with exit code 1
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+pdsh@admin: node4: ssh exited with exit code 1
+node4: 3
+node1: 3
+node2: 3
+node5: 3
+node9: 3
+node8: 3
+node6: 3
+node7: 3
+cosbench: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2149
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2149'
+Killed Cosbench Job: w2149
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67524047   2841990790     63118569   4137214302
+mycontainers2              0            0            0            0            0     67718701   2851712356     63114171   4121919515
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       134638688            0
+  total avail      181702880
+  total space      330009088
+done with case cos-only ...
+starting cos-only ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1461  100    23  100  1438     72   4551 --:--:-- --:--:-- --:--:--  4565
+cosbench: Accepted with ID: w2150
+done with cosbench prepare ... sleeping 300s ...
+stopping cluster ...
+pdsh@admin: node4: ssh exited with exit code 1
+pdsh@admin: node5: ssh exited with exit code 1
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0   119k      0 --:--:-- --:--:-- --:--:--  165k
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+pdsh@admin: node1: ssh exited with exit code 1
+node1: Killed
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+pdsh@admin: node2: ssh exited with exit code 1
+pdsh@admin: node1: ssh exited with exit code 137
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+cosbench: w2150	Fri Oct 20 10:03:11 UTC 2017	CANCELLED
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+cosbench: 
+node2: 3
+node4: 3
+node5: 3
+node1: 3
+node6: 3
+node9: 3
+node8: 3
+node7: 3
+cosbench: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2150
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2150'
+Killed Cosbench Job: w2150
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 0 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 60 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67525369   2863264537     63118835   4141396004
+mycontainers2              0            0            0            0            0     67720045   2874131616     63114461   4126479155
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       133496560            0
+  total avail      182845008
+  total space      330009088
+done with case cos-only ...
+starting cos-only ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1461  100    23  100  1438     82   5153 --:--:-- --:--:-- --:--:--  5172
+cosbench: Accepted with ID: w2151
+done with cosbench prepare ... sleeping 300s ...
+stopping cluster ...
+pdsh@admin: node2: ssh exited with exit code 1
+node4: Killed
+pdsh@admin: node4: ssh exited with exit code 137
+pdsh@admin: node1: ssh exited with exit code 1
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+node1: Killed
+pdsh@admin: node1: ssh exited with exit code 137
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   169  100   169    0     0  49676      0 --:--:-- --:--:-- --:--:-- 56333
+pdsh@admin: node4: ssh exited with exit code 1
+node2: Killed
+pdsh@admin: node2: ssh exited with exit code 137
+node9: Killed
+pdsh@admin: node9: ssh exited with exit code 137
+node8: Killed
+pdsh@admin: node8: ssh exited with exit code 137
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+node6: Killed
+pdsh@admin: node6: ssh exited with exit code 137
+node5: Killed
+pdsh@admin: node5: ssh exited with exit code 137
+pdsh@admin: node5: ssh exited with exit code 1
+cosbench: w2151	Fri Oct 20 10:14:03 UTC 2017	CANCELLED
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100    53  100    45  100     8     89     15 --:--:-- --:--:-- --:--:--    89
+cosbench: 
+node7: Killed
+pdsh@admin: node7: ssh exited with exit code 137
+node8: 3
+node5: 3
+node2: 3
+node4: 3
+node6: 3
+node1: 3
+node9: 3
+node7: 3
+cosbench: 3
+admin: 3
+Killing sysbench with cmd: pdsh -w node1,node2,node4,node5 'pkill -9 sysbench'
+Killing vmstat with cmd: pdsh -w node1,node2,node4,node5,node6,node7,node8,node9 'pkill -9 vmstat'
+jobs found  1
+Killing Cosbench Job: w2151
+Killing Cosbench with cmd: pdsh -w cosbench 'sh /home/ceph-user/cos/cli.sh cancel w2151'
+Killed Cosbench Job: w2151
+Sleep for 30s..
+Clearing cache with cmd: pdsh -w cosbench,admin,node1,node2,node4,node5,node6,node7,node8,node9 'sync && echo 3 | sudo tee /proc/sys/vm/drop_caches'
+Stopped Cluster...
+running rados cleanup...
+Warning: using slow linear search
+Removed 3 objects
+running rados cleanup...
+Warning: using slow linear search
+Removed 91 objects
+done with rados cleanup...
+pool name                 KB      objects       clones     degraded      unfound           rd        rd KB           wr        wr KB
+mycontainers1              0            0            0            0            0     67526697   2882411338     63119103   4145429271
+mycontainers2              0            0            0            0            0     67721271   2893962946     63114733   4130963591
+scbench                    0            0            0            0            0      1222688   8013967892       174406    624369686
+  total used       135939972            0
+  total avail      180401596
+  total space      330009088
+done with case cos-only ...
+starting cos-h ...
+running vmstat ...
+sleeping for 30s ...
+running cosbench ...
+cosbench:   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+cosbench:                                  Dload  Upload   Total   Spent    Left  Speed
+cosbench:   0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  1461  100    23  100  1438     75   4744 --:--:-- --:--:-- --:--:--  4745100  1461  100    23  100  1438     75   4742 --:--:-- --:--:-- --:--:--  4745
+cosbench: Accepted with ID: w2152
